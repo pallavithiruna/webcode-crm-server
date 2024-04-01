@@ -9,7 +9,7 @@ import { User } from "./models/User.js";
 
 const app=express();
 app.use(cors({
-  origin:["http://localhost:5173"],
+  origin:["https://pallavi-crm.netlify.app/"],
   credentials:true,
 }));
 
